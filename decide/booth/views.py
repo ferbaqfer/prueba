@@ -5,7 +5,6 @@ from django.http import Http404
 
 from base import mods
 
-
 # TODO: check permissions and census
 class BoothView(TemplateView):
     template_name = 'booth/booth.html'
